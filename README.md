@@ -64,4 +64,18 @@ ip.addr == 142.250.1.139
 ```
 
 **View: [step2A](sreenshots/step2A)**
+```bash
+ip.addr == 142.250.1.139 
+```
 
+
+## LinkedIn Article.
+- [Analyse Packets with Wireshark]()<br>
+
+## Connect with me.
+[🔗 LinkedIn](https://www.linkedin.com/in/agbuenoch)<br>
+[🔗 X](https://www.x.com/agbuenoch)
+
+```enoch
+ip.addr == 142.250.1.139 
+```

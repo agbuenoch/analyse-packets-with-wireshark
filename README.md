@@ -15,33 +15,20 @@ The area pointed to by the 1st arrow is the filter text box used to filter and s
 Scroll down the packet list until a packet is listed where the info column starts with the words 'Echo (ping) request' as pointed to by the 1st arrow. The 2nd arrow points to the ICMP Protocol contained in the traffic.<br>
 **View: [step1C](sreenshots/step1C)**
 
-Let us look at common Protocol Names and their meaning.
-
-ARP (Address Resolution Protocol) --> used to map IP addresses to MAC addresses.
-
-IP (Internet Protocol) --> used for routing and addressing packets.
-
-TCP (Transmission Control Protocol) --> used for reliable data transport.
-
-UDP (User Datagram Protocol) --> used for faster, connectionless transport.
-
-DNS (Domain Name System) --> This protocol translates domain names to IPs.
-
-HTTP/HTTPS --> use in web traffic for regular and secure browser/server communication.
-
-ICMP (Internet Control Message Protocol) --> used in ping and traceroute.
-
-TLS (Transport Layer Security) --> used for encrypted communication.
-
-SSH (Secure SHell) --> used to connect to a system remotely (Secure remote login).
-
-FTP (File Transfer Protocol) -->  used for file transfers between client and server.
-
-SMTP (Simple Mail Transfer Protocol)--> Used in email delivery or sending email, but not for receiving email.
-
-IMAP (Internet Message Access Protocol) --> used to retrieve emails from a mail server to your device (computer, phone, or app), but not for sending email.
-
-POP3 (Post Office Protocol v3) --> This is also used to retrieve emails from a mail server to your device, but not for sending email.
+**Let us look at common Protocol Names and their meaning.**
+-**ARP** (Address Resolution Protocol) --> used to map IP addresses to MAC addresses.
+-**IP** (Internet Protocol) --> used for routing and addressing packets.
+-**TCP** (Transmission Control Protocol) --> used for reliable data transport.
+-**UDP** (User Datagram Protocol) --> used for faster, connectionless transport.
+-**DNS** (Domain Name System) --> This protocol translates domain names to IPs.
+-**HTTP/HTTPS** (HyperText Transfer Protocol Secure) --> use in web traffic for regular and secure browser/server communication.
+-**ICMP** (Internet Control Message Protocol) --> used in ping and traceroute.
+-**TLS** (Transport Layer Security) --> used for encrypted communication.
+-**SSH** (Secure SHell) --> used to connect to a system remotely (Secure remote login).
+-**FTP** (File Transfer Protocol) -->  used for file transfers between client and server.
+-**SMTP** (Simple Mail Transfer Protocol)--> Used in email delivery or sending email, but not for receiving email.
+-**IMAP** (Internet Message Access Protocol) --> used to retrieve emails from a mail server to your device (computer, phone, or app), but not for sending email.
+-**POP3** (Post Office Protocol v3) --> This is also used to retrieve emails from a mail server to your device, but not for sending email.
 
 ## Step 2: Apply a basic Wireshark filter and inspect a packet.
 **An overview of the key property columns listed for each packet:**
@@ -70,6 +57,7 @@ The details pane is located at the bottom portion of the main Wireshark window, 
 
 The above details pane can also be accessed in a new window by double-clicking a packet. The upper section of the window below contains subtrees where Wireshark will provide you with an analysis of the various parts of the network packet. As illustrated below, the upper section of the window, as indicated by the first arrow, contains subtrees (e.g. Frame, Ethernet II, Internet Protocol Version 4 and Transmission Control Protocol) where Wireshark will provide you with an analysis of the various parts of the network packet. The lower section of the window, as indicated by the second arrow, contains the raw packet data displayed in hexadecimal and ASCII text. There is also placeholder text for fields where the character data does not apply, as indicated by the dot `.`
 > Double-click any of the subtrees in the upper section to have a detailed view of all information about the data packet.
+
 **View: [step2D](sreenshots/step2D)**
 
 Double-click the Frame subtree to view details about the overall network packet, or frame, including the frame length and the arrival time of the packet. At this level, we are viewing information about the entire packet of data.
